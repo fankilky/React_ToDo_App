@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
+* {
+  font-family: "Indie Flower", cursive;
+}
+
+/* :link  :visited */
+.nostyle {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+.nostyle:link {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+.nostyle:visited {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* nav bar */
+nav {
+  min-height: 5vh;
+  margin-top: 3px;
+}
+.navitems {
+  margin: 0 40px;
+  font-size: 2rem;
+}
+
+.landingPage {
+  margin-top: 45px;
+}
+
+.formGroup {
+  margin: 15px 0;
+}
+
+.formGroup label {
+  margin-right: 5px;
+}
+
+.link {
+  padding-top: 10px;
+}
+
+/* todo list */
+.todo-container {
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.todo_input input {
+  width: 500px;
+  border-radius: 50px;
+  border: 2px solid #000;
+  background: transparent;
+}
+
+.todo_input input::placeholder {
+  color: #000;
+  margin-left: 10px;
+}
+
+.todo_input input[type="text"] {
+  font-size: 30px;
+  padding: 0 30px;
+}
+
+.list_container {
+  width: 500px;
+  border-radius: 50px;
+  border: 2px solid #000;
+  background: transparent;
+  padding: 5px 0;
+  margin: 5px 0;
+}
+
+.list_container[type="text"] {
+  font-size: 20px;
+  padding: 0 30px;
+}
