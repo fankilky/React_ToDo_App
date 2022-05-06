@@ -69,6 +69,7 @@ export default function LoginForm(props) {
         </div>
         <div className="center">
           <button
+            className="login_btn"
             type="submit"
             onClick={(e) => {
               console.log(`clicked`);

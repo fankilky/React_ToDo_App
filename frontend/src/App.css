@@ -90,3 +90,14 @@ nav {
   font-size: 20px;
   padding: 0 30px;
 }
+
+.link a {
+  color:rgb(1, 1, 120)
+}
+
+.add_btn, .del_btn {
+  margin-left: 10px;
+}
+.add_btn{
+font-size: 21px;
+}

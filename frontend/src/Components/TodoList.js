@@ -58,7 +58,7 @@ export default function TodoList() {
             setItems(newValue);
           }}
         ></input>
-        <button type="submit"> ADD</button>
+        <button className="add_btn" type="submit"> +</button>
       </form>
       <div>
         {todoFromRedux && todoFromRedux.length > 0
@@ -75,7 +75,7 @@ export default function TodoList() {
                     editTodoItems(e, todo.id);
                   }}
                 />
-                <button onClick={(e) => deleteTodo(e, todo.id)}> X </button>
+                <button className="del_btn" onClick={(e) => deleteTodo(e, todo.id)}> X </button>
               </div>
             ))
           : null}
