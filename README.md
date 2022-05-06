@@ -1,6 +1,7 @@
 # To Do Application
 
 This project was built with HTML, CSS, Bootsrap, React, Redux, Javasrcipt with database (Postgresql).
+
 This is a Todo application where user can add, update and delete a Todo item. 
 I have used the Express Server that connects to a Database and used Redux state storage on the React frontend framework.
 
